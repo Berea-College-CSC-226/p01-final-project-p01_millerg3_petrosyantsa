@@ -71,7 +71,10 @@ Reflect on what you’ve done so far. How’s it going? Are you feeling behind/a
 What has surprised you so far? Describe your general feelings. Be honest with yourself; this section is for you, not me.
 
 ```
-    **Replace this text with your reflection
+    We have made a frame and a design plan for our future program. It going pretty well, we are feeling on track. For now, we are worried 
+    about grid set up and movement on the board. What suprised us is that our programm seems like a very simple game of checkers, but when we 
+    were making a frame - there is actually a lot of steps, and things to be done. We know it will be challenging in some aspects, but 
+    we are looking forward to figure it out!  
 ```
 
 ---
