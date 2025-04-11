@@ -65,7 +65,7 @@ class Pepperoni(CheckerPiece):
         def __init__(self):
             super().__init__()
             """
-            Inherits all methods from CheckerPiece, is its own type of piece,,
+            Inherits all methods from CheckerPiece, is its own type of piece,
             starts on top
             """
             pass

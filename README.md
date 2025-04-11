@@ -62,7 +62,7 @@ section as you go. DO NOT forget about it!
 [pizza.jpg] Inspiration for pizza checkers, wanted to make it an actual digital game and use cooler checker pieces
 (pepperoni and sausage)
 ---
-
+https://emunix.emich.edu/~mevett/AI/Checkers/checkersNotation.html Using as an inspiration for setting up the board
 ## Milestone 2: Code Setup and Issue Queue
 
 Most importantly, keep your issue queue up to date, and focus on your code. 🙃
