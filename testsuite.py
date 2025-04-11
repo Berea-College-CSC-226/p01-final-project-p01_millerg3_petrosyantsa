@@ -1,4 +1,4 @@
-from game.py import *\
+from game.py import *
 
 from inspect import getframeinfo, stack
 
