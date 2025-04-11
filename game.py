@@ -44,7 +44,7 @@ class CheckerPiece:
                       0, 25, 0, 26, 0, 27, 0, 28,
                       29, 0, 30, 0, 31, 0, 32, 0]
         self.pieces = []
-
+# test
         pass
 
     def piece_position(self):
