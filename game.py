@@ -54,11 +54,15 @@ class CheckerPiece:
 
 
 
-    def select_piece(self):
+    def piece_clicked(self):
         """
-        User clicks the piece, computer registers click
+        User clicks the piece, computer registers click, and checks if the piece can move there or not.
         :return:
         """
+
+
+
+
 
         pass
 
