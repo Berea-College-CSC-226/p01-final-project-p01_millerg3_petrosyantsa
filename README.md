@@ -62,7 +62,7 @@ section as you go. DO NOT forget about it!
 [pizza.jpg] Inspiration for pizza checkers, wanted to make it an actual digital game and use cooler checker pieces
 (pepperoni and sausage)
 ---
-https://emunix.emich.edu/~mevett/AI/Checkers/checkersNotation.html Using as an inspiration for setting up the board
+
 https://www.pythontutorial.net/tkinter/tkinter-grid/ Using for ideas to set up the board
 https://pythonguides.com/python-for-loop-index/ Refresher on how to find current index in list while looping, using for checker pieces
 ## Milestone 2: Code Setup and Issue Queue

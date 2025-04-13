@@ -59,6 +59,7 @@ class CheckerPiece:
         User clicks the piece, computer registers click
         :return:
         """
+
         pass
 
     def move_piece(self):
