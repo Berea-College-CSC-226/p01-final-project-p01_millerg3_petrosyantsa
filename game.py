@@ -42,15 +42,15 @@ class CheckerPiece:
                       0, 17, 0, 18, 0, 19, 0, 20,
                       21, 0, 22, 0, 23, 0, 24, 0,
                       0, 25, 0, 26, 0, 27, 0, 28,
-                      29, 0, 30, 0, 31, 0, 32, 0]
+                      29, 0, 30, 0, 31, 0, 32, 0] # Sets up the checkers board, numbers other than 0 are the grids
+                                                  # that pieces will be on
         self.pieces = []
-# test
         pass
 
     def piece_position(self):
         for num in self.board:
             if num != 0:
-                self.pieces.append(num)
+                self.pieces.append(num) # starting piece positions at all of these numbers
 
 
 
