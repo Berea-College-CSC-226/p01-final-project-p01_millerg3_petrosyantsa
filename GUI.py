@@ -14,33 +14,40 @@ class TkinterGUI:
         self.square_pos = []
         self.pepperoni_pos = []
         self.sausage_pos = []
+        self.row = None
+        self.col = None
         # self.piece = None
         # self.board = list(range(1, 65))
         # self.pieces = []
 
     def create_board(self):
-        for row in self.rows:
-            for col in self.columns:
-                self.square = tk.Button(self.root, width=15, height=3, command=self.button_handler())
-                self.square_pos = row + col
-                self.square.grid(row = row, column = col)
+        for self.row in self.rows:
+            for self.col in self.columns:
+                self.square_pos.append(self.row+self.col)
+                self.square = tk.Button(self.root, width=15, height=3, command=self.button_handler(self.row + self.col))
+                self.square.grid(row = self.row, column = self.col)
+
 
     def create_pieces(self):
-        for row in self.rows[:3]: # Puts starting pieces in first 3 rows
-            for col in self.columns:
-                if (row + col) % 2 != 0: # Alternates spots for pieces
+        for self.row in self.rows[:3]: # Puts starting pieces in first 3 rows
+            for self.col in self.columns:
+                if (self.row + self.col) % 2 != 0: # Alternates spots for pieces
                     self.pepperoni = tk.Button(self.root, width=5, height=1)
-                    self.pepperoni_pos = row + col
-                    self.pepperoni.grid(row=row, column=col)
+                    self.pepperoni_pos.append(self.row + self.col)
+                    # print(self.pepperoni_pos)
+                    self.pepperoni.grid(row=self.row, column=self.col)
 
-        for row in self.rows[5:]: # Puts starting pieces in bottom 3 rows
-            for col in self.columns:
-                if (row + col) % 2 != 0:
+        for self.row in self.rows[5:]: # Puts starting pieces in bottom 3 rows
+            for self.col in self.columns:
+                if (self.row + self.col) % 2 != 0:
                     self.sausage = tk.Button(self.root, width=5, height=1)
-                    self.sausage_pos.append(row + col)
-                    self.sausage.grid(row=row, column=col)
+                    self.sausage_pos.append(self.row + self.col)
+                    # print(self.sausage_pos)
+                    self.sausage.grid(row=self.row, column=self.col)
 
     def button_handler(self):
+            print(self.square.grid)
+                    # print(self.square_pos.index(self.square))
         # if self.square_pos == self.sausage_pos + 2 or self.square_pos == self.sausage_pos:
 
 
