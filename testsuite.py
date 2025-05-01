@@ -1,4 +1,4 @@
-from game.py import *
+from checkers.py import *
 
 from inspect import getframeinfo, stack
 
@@ -12,16 +12,16 @@ def unittest(did_pass):
         msg = ("Test at line {0} FAILED.".format(linenum))
     print(msg)
 
-def turn_switcher_test():
+def setup_board():
     pass
 
-def game_won_test():
+def square_handler():
     pass
 
-def select_piece_test():
+def setup_pieces():
     pass
 
-def move_piece_test():
+def create_new_piece():
     pass
 
 def make_piece_king_test():

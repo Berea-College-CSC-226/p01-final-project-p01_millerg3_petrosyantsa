@@ -78,3 +78,12 @@ Next step: make it so clicking piece increases a counter to it's position number
 clicking another piece resets it. when grid is clicked, if the counter is relative
 to grid number by algorithm stated above, it should work. Need to make movement work as well.
 
+if piece clicked:
+counter = piece_pos
+if grid clicked:
+if moving algorithm is true:
+make button at
+
+if square clicked:
+if piece at counter position == square_pos
+for now print something to test, eventually make that one disappear, row = pep_pos[0] col = [1]
