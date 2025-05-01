@@ -7,8 +7,8 @@ Exclamation Marks  ️indicate action items; you should remove these emoji as yo
 
 **Author(s)* Gavin Miller, Alina Petrosyants
 
-**Google Doc Link**: https://docs.google.com/document/d/1Tsf9GHin8wAM7IFgzROiJbQJ-GSK09jl3QHG7QsOEGc/edit?tab=t.0
-
+**Google Doc Link**: https://docs.google.com/document/d/1oCrhvUkujQaq25dxU13zou1WSlKlaaSUjLtZlX5y-EA/edit?tab=t.0#heading=h.qg98s23ap4mh
+Repo Link : 
 ---
 
 ## Milestone 1: Setup, Planning, Design

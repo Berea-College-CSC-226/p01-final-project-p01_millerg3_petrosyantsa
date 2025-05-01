@@ -88,6 +88,12 @@ class TkinterGUI:
 
 
     def create_new_piece(self, square_pos, current_tag):
+        """
+        Creates new piece when grid is clicked
+        :param square_pos:
+        :param current_tag:
+        :return: None
+        """
         square_num = square_pos[0] + square_pos[1]
         selected_piece_pos = self.selected_piece[0] + self.selected_piece[1]
         square_pos_tuple = tuple(square_pos)  # Lists aren't hashable, use tuple key instead
@@ -113,12 +119,15 @@ class TkinterGUI:
                 self.destroy_piece()  # Destroys the current piece so it appears to "move" to the selected square
 
     def destroy_piece(self):
+        """
+        Destroys current selected piece when grid is clicked
+        :return:
+        """
         piece_tuple = tuple(self.selected_piece)
 
         if self.current_tag == 'sas':
             selected_piece = self.sausages[piece_tuple]
-            selected_piece.grid_forget()
-
+            selected_piece.grid_forget() # Deletes piece
         elif self.current_tag == 'pep':
             selected_piece = self.pepperonis[piece_tuple]
             selected_piece.grid_forget()
